@@ -1,0 +1,177 @@
+@media (min-width: 320px) and (max-width: 460px) {
+  html {
+    box-sizing: border-box;
+    max-height: 600px;
+    min-height: 300px;
+  }
+  .icon {
+    position: absolute;
+    left: -60px;
+  }
+  input:focus {
+    border-bottom: 2px solid rgb(196, 158, 53);
+  }
+  textarea:focus {
+    border: 2px solid rgb(196, 158, 53);
+  }
+  button:hover {
+    background-color: #ffe604;
+    color: #ffffff;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    height: 480px;
+    background: #ffffff;
+    box-shadow: 1px 1px 5px 2px #c5c1c1;
+    border-radius: 24px;
+  }
+  .card-title {
+    font-size: 130%;
+    margin-left: 70px;
+  }
+  input {
+    width: 60%;
+    height: 90%;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid rgb(211, 208, 208);
+  }
+  textarea {
+    overflow: hidden;
+    resize: none;
+    border: 2px solid rgb(211, 208, 208);
+    border-radius: 5px 5px 5px;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    background: #ebe9e9;
+    font-size: 13px;
+    max-width: 425px;
+    max-height: 154px;
+    min-height: 150px;
+    width: 70%;
+    height: 100%;
+  }
+  .btn {
+    margin: 20px;
+  }
+}
+@media (min-width: 460px) and (max-width: 767px) {
+  .icon {
+    position: absolute;
+    left: -60px;
+  }
+  input:focus {
+    border-bottom: 2px solid rgb(196, 158, 53);
+  }
+  textarea:focus {
+    border: 2px solid rgb(196, 158, 53);
+  }
+  button:hover {
+    background-color: #ffe604;
+    color: #ffffff;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    height: 480px;
+    background: #ffffff;
+    box-shadow: 1px 1px 5px 2px #c5c1c1;
+    border-radius: 24px;
+  }
+
+  input {
+    width: 70%;
+    height: 90%;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid rgb(211, 208, 208);
+  }
+  textarea {
+    overflow: hidden;
+    resize: none;
+    border: 2px solid rgb(211, 208, 208);
+    border-radius: 5px 5px 5px;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    background: #ebe9e9;
+    font-size: 15px;
+    max-width: 425px;
+    max-height: 134px;
+    min-height: 100px;
+    width: 70%;
+    height: 100%;
+  }
+  .btn {
+    margin: 20px;
+  }
+}
+@media (min-width: 400px) and (max-width: 460px) {
+  .icon {
+    position: absolute;
+    left: -60px;
+  }
+  input:focus {
+    border-bottom: 2px solid rgb(196, 158, 53);
+  }
+  textarea:focus {
+    border: 2px solid rgb(196, 158, 53);
+  }
+  button:hover {
+    background-color: #ffe604;
+    color: #ffffff;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 480px;
+    background: #ffffff;
+    box-shadow: 1px 1px 5px 2px #c5c1c1;
+    border-radius: 24px;
+  }
+  input {
+    width: 50%;
+    height: 90%;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid rgb(211, 208, 208);
+  }
+  .card-title {
+    font-size: 170%;
+    margin-left: 90px;
+  }
+  textarea {
+    overflow: hidden;
+    resize: none;
+    border: 2px solid rgb(211, 208, 208);
+    border-radius: 5px 5px 5px;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    background: #ebe9e9;
+    font-size: 15px;
+    max-width: 425px;
+    max-height: 70px;
+    width: 90%;
+    height: 100%;
+  }
+  .btn {
+    position: relative;
+    bottom: 50px;
+    margin: 70px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1440px) {
+  input:focus {
+    border-bottom: 2px solid rgb(196, 158, 53);
+  }
+  textarea:focus {
+    border: 2px solid rgb(196, 158, 53);
+  }
+  button:hover {
+    background-color: #ffe604;
+    color: #ffffff;
+  }
+}

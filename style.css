@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: visible;
+}
+body {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  background-image: -webkit-radial-gradient(circle, #9FF, #F9F, #FC9) ;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 25px;
+}
+
+/*Modified by TheJoker*/
+.card {
+  display: flex;
+  justify-content: center;
+  width: 850px;
+  height: 480px;
+  background: #ffffff;
+   background-image: -webkit-radial-gradient(#CF3, #3C9, #939) ;
+  border-radius: 24px;
+}
+.card-title {
+  margin: 30px 15px 0px 100px;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  font-variant:small-caps ;
+  text-indent: 25px ;
+  text-shadow: 3px 2px 1px #C60 ;
+  color: #FF0 ;
+}
+.form {
+  margin: 8px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Poppins", sans-serif;
+
+}
+textarea {
+  overflow: hidden;
+  resize: none;
+  border: 2px solid rgb(211, 208, 208);
+  border-radius: 5px 5px 5px;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  background: #ebe9e9;
+  font-size: 15px;
+  max-width: 425px;
+  max-height: 134px;
+  min-height: 100px;
+  border-bottom-style:groove ;
+  border-bottom-color: #000 ;
+}
+label {
+  margin: 8px;
+  text-align: end;
+}
+input {
+  width: 380px;
+  height: 30px;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid rgb(211, 208, 208);
+
+}
+button {
+	margin: 15px;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #600;
+	background-color: #0F0 ;
+	border-radius: 9px ;
+	border-color: #903 ;
+	border-style:groove ;
+	padding: 5px ;
+}
+button:hover
+{
+	background-color: #FC0 ;
+	color: #000 ;
+}
+a
+{
+	font-family:"Cambria" ;
+	text-decoration:none ;
+	font-size:15px ;
+	color: #03C ;
+	font-variant:small-caps ;
+}
+a:hover
+{
+	color: #603 ;
+	font-family:"Palatino Linotype" ;
+	font-size: large ;
+	font-style: italic ;
+}
+a:visited
+{
+	color: #F03 ;
+	text-decoration: none ;
+}
+.label-name
+{
+	font-variant: small-caps ;
+	font-weight: bolder ;
+	font-size: 16px ;
+}
+.label-email
+{
+	font-family: "Cambria" ;
+	font-size: 16px ;
+	text-indent: 5px ;
+}
+.dropdown
+{
+	display:inline-block ;
+	position:static ;
+	font-weight: bold ;
+}
+.dropdown-menu
+{
+	display:none ;
+	position:relative ;
+	list-style:disc ;
+	background-image: -webkit-linear-gradient(#F90, #F03) ;
+}
+.dropdown:hover .dropdown-menu 
+{
+	display: block;
+	transition-delay: 8s ;
+}
+.dropdown-menu A:hover
+{	
+	color: #030 ;
+	font-family:"Times New Roman", Times, serif ;
+}
+.dropdown-menu A
+{
+	color: #FF0 ;
+	font-family:"Arial Black", Gadget, sans-serif  ;
+}
+
+.icon {
+    position: absolute;
+    left: -60px;
+	border:thin ;
+	border-color: #3C9 ;
+  }
+  .btn {
+    margin: 20px;
+  }
+  .icon {
+    position: absolute;
+    left: -60px;
+  }
+  input:hover {
+    border-bottom: 2px solid #F06;
+	border-style:solid ;
+  }
+  textarea:hover{
+    border: 2px solid #033;
+	border-style:groove ;
+  }
+  .icon {
+    position: absolute;
+    left: -60px;
+  }
+.message-area
+{
+	font-family:"Times New Roman", Times, serif ;
+	font-style:italic ;
+}
+.emailInput
+{
+	font-family: Georgia ;
+	font-style:italic ;
+}
+.nameInput
+{
+	font-family:Constantia ;
+	font-style:italic ;
+}
+
